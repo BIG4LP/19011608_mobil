@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".myChecklist"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Oda arkadaşının nasıl olmasını istersin?"
+        android:fontFamily="@font/notosanskr_bold"
+        android:background="#99CCFF"
+        android:textSize="23dp"
+        android:textColor="@color/white"
+        android:paddingTop="30dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Birden fazla seçim yapılabilir!"
+        android:textSize="12dp"
+        android:textColor="@color/white"
+        android:background="#99CCFF"
+        android:layout_marginBottom="15dp"
+        android:paddingBottom="30dp"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Yaş"
+        android:fontFamily="@font/notosanskr_bold"
+        android:gravity="center"
+        android:textSize="17dp"
+        android:padding="5dp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <CheckBox
+            android:id="@+id/cg1_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="20"
+            />
+        <CheckBox
+            android:id="@+id/cg1_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="21"
+            />
+        <CheckBox
+            android:id="@+id/cg1_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="22"
+            />
+        <CheckBox
+            android:id="@+id/cg1_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="23"
+            />
+        <CheckBox
+            android:id="@+id/cg1_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="24"
+            />
+        <CheckBox
+            android:id="@+id/cg1_6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="25"
+            />
+        <CheckBox
+            android:id="@+id/cg1_7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="26"
+            />
+        <CheckBox
+            android:id="@+id/cg1_8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fark etmez"
+            />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.3dp"
+        android:layout_centerInParent="true"
+        android:background="#939597"
+        android:layout_margin="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:fontFamily="@font/notosanskr_bold"
+        android:text="Sigara içme durumu"
+        android:textSize="17dp"
+        android:padding="5dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <CheckBox
+            android:id="@+id/cg2_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Odada İçebilir"
+            />
+        <CheckBox
+            android:id="@+id/cg2_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dışarıda İçebilir"
+            />
+        <CheckBox
+            android:id="@+id/cg2_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kullanmayan"
+            />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.3dp"
+        android:layout_centerInParent="true"
+        android:background="#939597"
+        android:layout_margin="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:fontFamily="@font/notosanskr_bold"
+        android:text="Fakülte"
+        android:textSize="17dp"
+        android:padding="5dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <CheckBox
+            android:id="@+id/cg3_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Aynı fakülte"
+            />
+        <CheckBox
+            android:id="@+id/cg3_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Farklı fakülte"
+            />
+        <CheckBox
+            android:id="@+id/cg3_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kimya Metalurji"
+            />
+        <CheckBox
+            android:id="@+id/cg3_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fen Edebiyat"
+            />
+        <CheckBox
+            android:id="@+id/cg3_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sanat"
+            />
+        <CheckBox
+            android:id="@+id/cg3_6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fark etmez"
+            />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.3dp"
+        android:layout_centerInParent="true"
+        android:background="#939597"
+        android:layout_margin="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:fontFamily="@font/notosanskr_bold"
+        android:text="Ses"
+        android:textSize="17dp"
+        android:padding="5dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <CheckBox
+            android:id="@+id/cg4_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kulaklık"
+            />
+        <CheckBox
+            android:id="@+id/cg4_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hoparlör"
+            />
+        <CheckBox
+            android:id="@+id/cg4_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="İkisi de"
+            />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.3dp"
+        android:layout_centerInParent="true"
+        android:background="#939597"
+        android:layout_margin="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cinsiyet"
+        android:gravity="center"
+        android:fontFamily="@font/notosanskr_bold"
+        android:textSize="17dp"
+        android:padding="5dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <CheckBox
+            android:id="@+id/cg5_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Erkek"
+            />
+        <CheckBox
+            android:id="@+id/cg5_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kadın"
+            />
+        <CheckBox
+            android:id="@+id/cg5_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fark Etmez"
+            />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:fontFamily="@font/notosanskr_bold"
+        android:text="Parfüm"
+        android:textSize="17dp"
+        android:padding="5dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <CheckBox
+            android:id="@+id/cg6_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kullanabilir"
+            />
+        <CheckBox
+            android:id="@+id/cg6_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kullanamaz"/>
+        <CheckBox
+            android:id="@+id/cg6_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Abartmadan"
+            />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.3dp"
+        android:layout_centerInParent="true"
+        android:background="#939597"
+        android:layout_margin="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:fontFamily="@font/notosanskr_bold"
+        android:text="Birlikte Egzersiz"
+        android:textSize="17dp"
+        android:padding="5dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <CheckBox
+            android:id="@+id/cg7_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ayrı ayrı"
+            />
+        <CheckBox
+            android:id="@+id/cg7_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ara sıra"/>
+        <CheckBox
+            android:id="@+id/cg7_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Her gün"
+            />
+        <CheckBox
+            android:id="@+id/cg7_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Yok" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.3dp"
+        android:layout_centerInParent="true"
+        android:background="#939597"
+        android:layout_margin="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:fontFamily="@font/notosanskr_bold"
+        android:text="Odada Yemek"
+        android:textSize="17dp"
+        android:padding="5dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <CheckBox
+            android:id="@+id/cg8_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Yiyebilir"
+            />
+        <CheckBox
+            android:id="@+id/cg8_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Yiyemez"/>
+        <CheckBox
+            android:id="@+id/cg8_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ara Sıra"
+            />
+        <CheckBox
+            android:id="@+id/cg8_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kokmayan Yiyecekler" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.3dp"
+        android:layout_centerInParent="true"
+        android:background="#939597"
+        android:layout_margin="20dp"/>
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_rm"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="15dp"
+        android:text="Kaydet"
+        android:background="@drawable/buttonshape"
+        />
+
+
+</LinearLayout>
+
+</ScrollView>

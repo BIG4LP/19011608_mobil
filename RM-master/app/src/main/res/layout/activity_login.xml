@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:src="@drawable/roommate"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/notosanskr_bold"
+        android:text="ROOMER"
+        android:textColor="@color/black"
+        android:textSize="30dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.3dp"
+        android:layout_centerInParent="true"
+        android:background="#939597"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_margin="15dp"/>
+
+
+    <EditText
+        android:id="@+id/loginEmail"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="E-posta adresinizi girin"></EditText>
+
+    <EditText
+        android:id="@+id/loginPassword"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="20dp"
+        android:hint="Şifrenizi girin" />
+
+
+    <android.widget.Button
+        android:id="@+id/login"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/buttonshape"
+        android:fontFamily="@font/notosanskr_bold"
+        android:gravity="center"
+        android:text="Giriş Yap"
+        android:textColor="@color/white"
+        android:textFontWeight="700" />
+
+    <android.widget.Button
+        android:id="@+id/Signup"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/buttonshape"
+        android:fontFamily="@font/notosanskr_bold"
+        android:text="Kayıt Ol"
+        android:textColor="@color/white"
+        android:textFontWeight="700" />
+
+
+
+</LinearLayout>

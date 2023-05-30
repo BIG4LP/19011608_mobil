@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/checklist"
+        android:layout_gravity="center"
+        android:layout_marginTop="70dp"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:gravity="center"
+        android:text="Birkaç soruyu yanıtlayın ve size mükemmel uyum sağlayacak bir oda arkadaşı bulalım!"
+        android:textSize="20sp"
+        android:textStyle="bold"></TextView>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/nextButton_myChecklist"
+        android:layout_width="330dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:background="@drawable/buttonshape"
+        android:text="Kendinizi tanıtın"
+        android:textStyle="bold"></androidx.appcompat.widget.AppCompatButton>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/nextButton_roommateChecklist"
+        android:layout_width="330dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:background="@drawable/buttonshape"
+        android:text="Ne tür bir oda arkadaşı istediğinizi belirleyin"
+        android:textStyle="bold"></androidx.appcompat.widget.AppCompatButton>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/postButton"
+        android:layout_width="330dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:background="@drawable/buttonshape"
+        android:text="Panoyu görüntüleme"
+        android:textStyle="bold"></androidx.appcompat.widget.AppCompatButton>
+
+
+</LinearLayout>

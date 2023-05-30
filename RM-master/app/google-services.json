@@ -1,0 +1,135 @@
+{
+  "project_info": {
+    "project_number": "99502223734",
+    "firebase_url": "https://mop1-26a55-default-rtdb.firebaseio.com",
+    "project_id": "mop1-26a55",
+    "storage_bucket": "mop1-26a55.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:99502223734:android:b3cf9fb6edba1fc1044a57",
+        "android_client_info": {
+          "package_name": "com.example.mop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "99502223734-nvmndsfkr36vf6v5jn86m90v3ibppn1r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCXYWnA2eQ0AG_RqsICwry9wF13bjTp-Lc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "99502223734-nvmndsfkr36vf6v5jn86m90v3ibppn1r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:99502223734:android:cd703d5775ea1ff7044a57",
+        "android_client_info": {
+          "package_name": "com.example.mop125"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "99502223734-nvmndsfkr36vf6v5jn86m90v3ibppn1r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCXYWnA2eQ0AG_RqsICwry9wF13bjTp-Lc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "99502223734-nvmndsfkr36vf6v5jn86m90v3ibppn1r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:99502223734:android:0428e23ad5b2fab4044a57",
+        "android_client_info": {
+          "package_name": "com.jabirdeveloper.tinderswipe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "99502223734-bop1qgusbvjjm9vjsn59sg39n435rtkg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.jabirdeveloper.tinderswipe",
+            "certificate_hash": "4e2b6e66300794ccd428b1a6d914342a7f493796"
+          }
+        },
+        {
+          "client_id": "99502223734-nvmndsfkr36vf6v5jn86m90v3ibppn1r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCXYWnA2eQ0AG_RqsICwry9wF13bjTp-Lc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "99502223734-nvmndsfkr36vf6v5jn86m90v3ibppn1r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:99502223734:android:45493eac05fe62e0044a57",
+        "android_client_info": {
+          "package_name": "com.mobile.findroommate4"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "99502223734-nvmndsfkr36vf6v5jn86m90v3ibppn1r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCXYWnA2eQ0AG_RqsICwry9wF13bjTp-Lc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "99502223734-nvmndsfkr36vf6v5jn86m90v3ibppn1r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
